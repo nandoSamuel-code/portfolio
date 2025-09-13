@@ -1,25 +1,107 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nahuel Fernandez - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f4f7fb;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #00c9a7, #4c67ed);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 { font-size: 2.5rem; }
+    header p { margin-top: 10px; font-size: 1.2rem; opacity: 0.9; }
 
-    <!-- SEO -->
-    <meta name="author" content="Nahuel Fernandez" />
-    <meta name="description" content="Nahuel Fernandez - Portfolio principal desarrollado con React y Vite." />
-    <meta name="keywords" content="Nahuel Fernandez, Portfolio, React, Vite, Desarrollo Web" />
+    .container {
+      max-width: 1200px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
 
-    <title>Nahuel Fernandez - Portfolio</title>
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease-in-out;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card h3 { margin-bottom: 1rem; color: #4c67ed; }
+    .card p { margin-bottom: 1.5rem; color: #555; }
+    .card a {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #00c9a7;
+      color: white;
+      font-weight: 600;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .card a:hover { background: #4c67ed; }
 
-    <!-- Ícono -->
-    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #222;
+      color: white;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
 
-    <!-- Archivos generados por Vite (revisá que coincidan con los que tenés en /assets) -->
-    <link rel="stylesheet" href="./assets/index-5120c3fc.css">
-    <script type="module" crossorigin src="./assets/index-7a062a33.js"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+  <header>
+    <h1>👋 Soy Nahuel Fernandez</h1>
+    <p>Desarrollador Web | Shopify & WordPress</p>
+  </header>
+
+  <div class="container">
+    <h2>📂 Proyectos Destacados</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>🛒 TREADS Store</h3>
+        <p>Tienda online moderna con diseño limpio y funcionalidad eCommerce.</p>
+        <a href="./TREADS/index.html" target="_blank">Ver Proyecto</a>
+      </div>
+      <div class="card">
+        <h3>🌐 Globand Consulting</h3>
+        <p>Sitio institucional para consultoría y servicios contables.</p>
+        <a href="./GLOBAND/index.html" target="_blank">Ver Proyecto</a>
+      </div>
+      <div class="card">
+        <h3>💼 Melvox</h3>
+        <p>Web corporativa enfocada en usabilidad y claridad.</p>
+        <a href="./MELVOXNPM/index.html" target="_blank">Ver Proyecto</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>⭐️ Diseñado & Desarrollado por Nahuel Fernandez</p>
+  </footer>
+
+</body>
 </html>
-
