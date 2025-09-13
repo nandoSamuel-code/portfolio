@@ -18,12 +18,12 @@ My goal is to deliver digital experiences that help businesses and individuals s
     <td align="center">
       <h3>🛒 TREADS Store</h3>
       <p>Modern eCommerce store with clean design and functionality.</p>
-      <a href="https://nandosamuel-code.github.io/portfolio/" target="_blank">🔗 View Project</a>
+      <a href="https://nandosamuel-code.github.io/portfolio/TREADS/" target="_blank">🔗 View Project</a>
     </td>
     <td align="center">
       <h3>🌐 Globand Consulting</h3>
       <p>Corporate website for an accounting & consulting firm.</p>
-      <a href="https://nandosamuel-code.github.io/portfolio/GLOBAND/" target="_blank">🔗 View Project</a>
+      <a href="https://nandosamuel-code.github.io/portfolio/GLOBANDNPM/" target="_blank">🔗 View Project</a>
     </td>
     <td align="center">
       <h3>💼 Melvox</h3>
