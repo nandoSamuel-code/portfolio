@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página no encontrada | Globand</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    // Redirigir cualquier 404 al index.html
+    // Conserva la ruta original para que React Router la maneje
+    (function() {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect !== location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <h1>Redirigiendo...</h1>
+  <script>
+    sessionStorage.redirect = location.href;
+    window.location.replace("./index.html");
+  </script>
+</body>
+</html>
