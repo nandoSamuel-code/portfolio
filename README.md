@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,100:4C67ED&height=200&section=header&text=Nahuel%20Fernandez%20🚀&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,100:4C67ED&height=200&section=header&text=MELVOX%20🚀&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="banner"/>
 </p>
 
 # 👋 Hi, I'm MELVOX
