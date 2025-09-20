@@ -3,7 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,100:4C67ED&height=200&section=header&text=Nahuel%20Fernandez%20🚀&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35" alt="banner"/>
 </p>
 
-# 👋 Hi, I'm Nahuel Fernandez
+# 👋 Hi, I'm MELVOX
 
 **Web Developer | Shopify & WordPress Specialist**  
 I build professional, responsive, and user-focused websites, combining clean design with functionality.  
@@ -69,5 +69,5 @@ My goal is to deliver digital experiences that help businesses and individuals s
 ---
 
 <p align="center">
-  ⭐️ Built by <b>Nahuel Fernandez</b>
+  ⭐️ Built by <b>MELVOX</b>
 </p>
